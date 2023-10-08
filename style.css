@@ -1,0 +1,44 @@
+body {
+    background-color: #212F3D;
+}
+
+.htext {
+    color: white;
+}
+
+#calculo1, #calculo2 {
+    height: 3rem;
+    width: auto;
+    background-color: #6d6d6d;
+    border: 1px solid white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+#calculo1::placeholder, #calculo2::placeholder {
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+#btnCalcular {
+    height: 3rem;
+    width: auto;
+    background-color: #6d6d6d;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+#btnCalcular:hover {
+    background-color: #4c5157;
+    cursor: pointer ;
+}
+
+#result {
+    color: white;
+    font-size: 2rem;
+}
